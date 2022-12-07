@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+
+body {
+    background: #ffd6ef;
+    color: rgb(150, 36, 55)
+}
+
+.headline {
+    z-index: 999;
+}
+
+.main-view {
+    background: #ffd6ef;
+    box-shadow: 20px 20px 60px #d9b6cb,
+    -20px -20px 60px #fff6ff;
+}
+
+.answerShow {
+    max-height: 10rem;
+}
+
+.textPlace {
+    max-height: 10rem;
+    /* word-wrap: break-word; */
+}
+
+/* .infoBox {
+    position: absolute;
+    top: 50;
+    left: 5;
+    right: 60;
+    bottom: 40;
+    height: 15rem;
+    width: 10rem;
+} */
+
+
+@tailwind utilities;
